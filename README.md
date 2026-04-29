@@ -6,7 +6,7 @@ A responsive web application built using React that allows users to explore Pok�
 
 ## 🚀 Live Demo
 
-👉 Coming soon (will be added after deployment)
+👉 https://pokedex-lite-rust.vercel.app/
 
 ---
 
