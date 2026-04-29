@@ -1,20 +1,100 @@
-<<<<<<< HEAD
-# React + Vite
+# 🧾 Pokedex Lite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built using React that allows users to explore Pokémon data with features like search, filtering, pagination, and favorites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 Coming soon (will be added after deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# pokedex-lite
->>>>>>> c7982be5a007007a2dec9b5fa1527c88ffa2fc23
+* 🔍 Search Pokémon by name (real-time filtering)
+* 🧪 Filter Pokémon by type (Fire, Water, Grass, etc.)
+* 📄 Pagination for efficient data browsing
+* ❤️ Mark and persist favorite Pokémon using localStorage
+* 📊 View detailed Pokémon stats in a modal
+* 📱 Fully responsive UI (mobile, tablet, desktop)
+* ⏳ Loading and error handling for better user experience
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **API:** PokéAPI
+* **Styling:** CSS / Inline Styling
+* **State Management:** React Hooks (useState, useEffect)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── PokemonCard.jsx
+│   ├── Modal.jsx
+│   ├── SearchBar.jsx
+│   ├── Filter.jsx
+│   └── Pagination.jsx
+├── pages/
+│   └── Home.jsx
+├── services/
+│   └── api.js
+└── App.jsx
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/RakshithaOmkar/pokedex-lite.git
+
+2. Navigate to project folder
+
+cd pokedex-lite
+
+3. Install dependencies
+
+npm install
+
+4. Run development server
+
+npm run dev
+
+---
+
+## 🌐 API Used
+
+Data is fetched from:
+https://pokeapi.co/
+
+---
+
+## 💡 Key Learnings
+
+* Handling API data and asynchronous operations
+* Managing component state effectively
+* Building reusable UI components
+* Implementing real-world features like search, filtering, and pagination
+* Improving user experience with loading and error states
+
+---
+
+## 🔮 Future Improvements
+
+* Add user authentication
+* Create a separate favorites page
+* Improve UI with animations and transitions
+* Optimize API calls (caching)
+
+---
+
+## 👨‍💻 Author
+
+Rakshitha Omkar
+GitHub: https://github.com/RakshithaOmkar
